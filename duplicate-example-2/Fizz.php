@@ -7,6 +7,7 @@ class Fizz
     {
         $result = [];
         for ($i = 1; $i < $int; $i++) {
+            //Buzzクラスと変数名が違っても重複と判断される
             if ($i % 3 === 0) {
                 if ($i % 5 === 0) {
                     $result[] = 'FizzBuzz';
